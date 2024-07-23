@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    font-family: 맑은고딕;
+    font-size: 13px;
+    color: #666;
+}
+
+#header_t_wrap{
+    background-color: rgb(255, 215, 162);
+    height: 100px;
+}
+
+.header_top{
+    margin: 0 auto;
+    width: 1180px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#header_b_wrap{
+    background-color: black;
+    height: 50px;
+}
+
+.header_bottom{
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.header_bottom ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_bottom li a {
+    display: block;
+    padding: 0 50px;
+    padding-top: 15px;
+    color: rgb(255, 215, 162);
+    box-sizing: border-box;
+}
+
+.header_bottom li a:hover{
+    background: url(../images/gnb_on.png) no-repeat center;
+}
+
+#banner{
+    background: url(../images/mb.png) no-repeat center;
+    width: 100%;
+    height: 815px;
+}
+
+#brand_introduce{
+    width: 1180px;
+    height: 700px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#brand_introduce h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#brand_introduce p{
+    padding-bottom: 50px;
+    padding-top:30px;
+}
+
+#brand_introduce ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand_introduce li{
+    border: 1px solid #b8b6b6;
+    
+}
+
+#brand_introduce li a{
+    display: block;
+ 
+}
+
+
+#brand_introduce li a:hover{
+    transform: scale(1.2);
+
+}
+
+.img_box{
+    overflow: hidden;
+    height: 340px;
+}
+
+#slide_banner_wrap{
+  background-image: url(../images/s1.jpg);
+  width: 100%;
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  animation: banner 5s infinite;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+#slide_banner_wrap h1{
+    border-bottom: 1px solid white;
+    position: relative;
+    top: 50%;
+    padding-bottom: 10px;
+}
+
+
+#slide_banner_wrap p{
+    position: relative;
+    top: 50%;
+}
+
+
+
+
+
+@keyframes banner {
+    0% {
+      background-image: url(../images/s1.jpg);
+    }
+  
+    25% {
+        background-image: url(../images/s2.jpg);
+    }
+  
+    50% {
+        background-image: url(../images/s3.jpg);
+    }
+  
+    75% {
+        background-image: url(../images/s4.jpg);
+    }
+  
+    100% {
+        background-image: url(../images/s5.jpg);
+    }
+  }
+
+  #map{
+    margin: 50px auto;
+    width: 1180px;
+    height: 700px;
+    background: url(../images/special.png) no-repeat center;
+  }
+
+  #youtube_wrap{
+    background: url(../images/bg.jpg);
+  }
+
+  .youtube{
+    width: 1180px;
+    height: 660px;
+    margin: 0px auto;
+    padding: 200px 0;
+  }
+
+  #footer_wrap{
+    background-color: #4d4c4c;
+    height: 150px;
+  }
+
+  .footer{
+    margin: 0 auto;
+    width: 1180px;
+    color: rgba(255, 255, 255, 0.733);
+    padding-top: 50px;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer p{
+    text-align: right;
+  }
